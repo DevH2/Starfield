@@ -18,7 +18,7 @@ class Particle {
     }
     fill(this.colorS,this.colorS,this.colorS,63);
     rect(this.x,this.y, this.diameter, this.diameter);
-    this.diameter-=0.02;
+    this.diameter-=0.035;
   }
   void move(){
     this.x = (float)(speed*Math.cos(angle)+this.x);
@@ -43,7 +43,7 @@ class OddBall extends Particle {
 }
 void setup(){
   noStroke();
-  frameRate(37);
+  frameRate(40);
   size(400,400);
   //theta = 0;
   p = new Particle[1500];
