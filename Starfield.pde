@@ -43,7 +43,7 @@ class OddBall extends Particle {
 }
 void setup(){
   noStroke();
-  frameRate(30);
+  frameRate(37);
   size(400,400);
   //theta = 0;
   p = new Particle[1500];
